@@ -1,0 +1,621 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Styling */
+body, html {
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Utility Classes */
+.container{
+    margin: 0 auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.showcase{
+    height: 100vh;
+    padding: 300px 0;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.box{
+    background: #f4f4f4;
+    color: #444;
+    height: 100vh;
+    padding: 220px 120px;
+    width: 50%;
+}
+
+.box h2{
+    color: #333;
+}
+
+.box p{
+    padding-top: 30px;
+    line-height: 1.7rem;
+}
+
+.box-left{
+    min-height: 100%;
+    float: left;
+}
+
+.box-right{
+    min-height: 100%;
+    float: right;
+}
+
+.mini-box{
+    float: left;
+    height: 370px;
+    width: 33.3%;
+    text-align: center;
+}
+
+.mini-box h3{
+    padding: 170px 30px;
+}
+
+.mini-box p{
+    line-height: 2rem;
+    padding: 120px 30px;
+    
+}
+
+.mini-box i{
+    padding: 140px 30px;
+}
+
+.room-box{
+    background: #fff;
+    height: 70vh;
+    width: 50%;
+    margin: 100px 0;
+}
+
+.room-box .btn-primary{
+    background: #fff;
+}
+
+.room-box p{
+    padding: 0 60px;
+    padding-bottom: 40px;
+}
+
+.room-box h2{
+    padding: 160px 60px;
+    padding-bottom: 40px;
+}
+
+
+
+.logo{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.social{
+    color: #bbbbbb;
+    margin-right: 10px;
+}
+
+.social:hover{
+    color: #fff;
+}
+
+
+.l-heading{
+    font-size: 4rem;
+}
+
+.m-heading{
+    font-size: 3rem;
+}
+
+.s-heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.8rem;
+}
+
+.btn-primary{
+    background: #f4f4f4;
+    border: 2px solid #333;
+    color: #333;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 20px;
+}
+
+.btn-primary:hover{
+    background: #333;
+    color: #fff;
+}
+
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-light-dark{
+    background: #4a4a48;
+    color: #bbbbbb;
+}
+
+.clr{
+    clear: both;
+}
+
+/* Navbar */
+#navbar{
+    background: #333;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar h2{
+    float: left;
+    margin-top: 15px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a.current{
+    background: #f4f4f4;
+    color: #333;
+}
+
+#navbar ul li a:hover{
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Showcase Home */
+#showcase-home .showcase{
+    background: url("../img/showcase-home.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+/* Home info */
+/* Breakfast info */
+
+#breakfast-info .box-left{
+    background: url("../img/breakfast.jpg") no-repeat center center/cover;
+}
+
+#breakfast-info .box-right{
+    padding-top: 180px;
+}
+
+/* Restaurant info */
+#wine-restaurant-info .box{
+    padding-top: 60px;
+}
+
+#wine-restaurant-info .box-right{
+    background: url("../img/wine.jpg") no-repeat left center/cover;
+}
+
+#wine-restaurant-info .box-left h2{
+    margin-top: 70px;
+}
+
+#wine-restaurant-info .box-left p{
+    margin-bottom: 40px;
+}
+
+/* Services */
+#services{
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#services h2{
+    padding: 100px 0;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------About Page------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* About showcase */
+#showcase-about .showcase{
+    color: #fff;
+    background: url("../img/about-showcase.jpg") no-repeat center center/cover;
+}
+
+#about-info{
+    padding: 100px;
+    text-align: center;
+}
+
+#about-info p{
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 2.8rem;
+}
+
+/* About design */
+#about-design{
+    padding-bottom: 200px;
+}
+
+/* Charming box */
+#charming .box-left{
+    background: url("../img/charming.jpg") no-repeat center center/cover;
+}
+
+#charming .box-right h2{
+    padding-top: 60px;
+}
+
+/* Design box*/
+#design .box-left h2 {
+    padding-top: 80px;
+}
+
+#design .box-right{
+    background: url("../img/design.jpg") no-repeat center center/cover;
+}
+
+/* Atmosphere */
+#atmosphere .box-left{
+    background: url("../img/atmosphere.jpg") no-repeat center center/cover;
+}
+
+#atmosphere .box-right h2{
+    padding-top: 100px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------Rooms Page------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* Room showcase */
+#showcase-room .showcase{
+    color: #fff;
+    background: url("../img/room-showcase.jpg") no-repeat center center/cover;
+}
+
+/* Room info */
+#room-info {
+    padding: 100px;
+    background: #333;
+    text-align: center;
+}
+
+#room-info p{
+    font-size: 1.4rem;
+    color: #fff;
+    line-height: 3.5rem;
+}
+
+/* Rooms */
+#rooms {
+    background: #f4f4f4;
+}
+
+#rooms h3{
+    color: #333;
+    padding: 100px 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+#rooms h2{
+    color: #333;
+}
+
+#rooms p{
+    color: #4a4a48;
+    line-height: 1.8rem;
+}
+
+#room-1 .box-right{
+    background: url("../img/room-1.jpg") no-repeat center center/cover;
+}
+
+#room-2 .box-left{
+    background: url("../img/room-2.jpg") no-repeat center center/cover;
+}
+
+#room-3 .box-right{
+    background: url("../img/room-3.jpg") no-repeat center center/cover;
+}
+
+#room-4 .box-left{
+    background: url("../img/room-4.jpg") no-repeat center center/cover;
+}
+
+#room-5 .box-right{
+    background: url("../img/room-5.jpg") no-repeat left center/cover;
+}
+
+#room-6 .box-left{
+    background: url("../img/room-6.jpg") no-repeat center center/cover;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------Restaurant Page------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* Restaurant showcase */
+#showcase-restaurant .showcase{
+    background: url("../img/showcase-restaurant.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+#restaurant-info{
+    background: #f4f4f4;
+    color: #4a4a48;
+    padding: 100px;
+    text-align: center;
+}
+
+#restaurant-info p{
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+/* Restaurant design */
+#restaurant-design{
+    background: #f4f4f4;
+}
+
+#restaurant-design .box h2{
+    padding-top: 100px;
+}
+
+#restaurant-design #contempary .box-left{
+    background: url("../img/contempary.jpg") no-repeat center center/cover;
+}
+
+#restaurant-design #technique .box-right{
+    background: url("../img/technique.jpg") no-repeat center center/cover;
+}
+
+#restaurant-design #chef .box-left{
+    background: url("../img/chef.jpg") no-repeat center center/cover;
+}
+
+/* Menu */
+#menu{
+    background: #f4f4f4;
+}
+
+#menu h3{
+    color: #333;
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+
+#menu .box {
+    height: 600px;
+    padding: 0;
+    padding-right: 100px;
+}
+
+#menu .box-right{
+    margin-top: 20px;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------Wine & Bar Page------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+ 
+/* Wine Bar showcase */
+#showcase-wine .showcase{
+    background: url("../img/showcase-wine.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+/* Wine info */
+#wine-info{
+    background: #f4f4f4;
+    color: #4a4a48;
+    padding: 100px;
+    text-align: center;
+}
+
+#wine-info p{
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+/* Wine design */
+#wine-design{
+    background: #f4f4f4;
+    padding-bottom: 200px;
+}
+
+#wine-design .box h2{
+    padding-top: 100px;
+}
+
+#wine-design #wine-1 .box-left{
+    background: url("../img/wine-1.jpg") no-repeat center center/cover;
+}
+
+#wine-design #wine-2 .box-right{
+    background: url("../img/wine-2.jpg") no-repeat center center/cover;
+}
+
+#wine-design #wine-3 .box-left{
+    background: url("../img/wine-3.jpg") no-repeat center center/cover;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------Contact us Page------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+/* Contact-showcase */
+#showcase-contact .showcase{
+    background: url("../img/showcase-contact.jpg") no-repeat center center/cover;
+    color: #fff;
+}
+
+/* Contact info */
+#contact-info {
+    background: #f4f4f4;
+    color: #4a4a48;
+    padding: 100px;
+    text-align: center;
+}
+
+#contact-info p{
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+/* Contact-details */
+#contact-details{
+    color: #333;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+#contact-details h3{
+    margin-bottom: 80px;
+}
+
+#contact-details i{
+    margin-bottom: 80px;
+    padding: 20px 25px;
+    border: 3px solid #333;
+    border-radius: 50%;
+}
+
+#contact-details p{
+    font-size: 1.7rem;
+    padding-bottom: 30px;
+}
+
+/* Contact form */
+#contact-form{
+    background: #fff;
+    color: #333;
+    height: 100vh;
+}
+
+#contact-form h2{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#contact-form p{
+    margin-bottom: 30px;
+}
+
+/* Form groups */
+
+.form-group{
+    width: 100%;
+    overflow: auto;
+}
+
+.form-group input{
+    background: #dddddd;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;;
+    padding: 30px 30px;
+    margin: 10px 10px;
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-right: 0;
+    width: 100%;
+    outline: none;
+}
+
+.form-group textarea {
+    background: #dddddd;
+    border: none;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.5rem;
+    height: 200px;
+    padding: 30px 30px;
+    margin: 10px 10px;
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-right: 0;
+    width: 100%;
+    outline: none;
+}
+
+.form-group button {
+    padding: 20px;
+    font-size: 1.1rem;
+    width: 50%;
+}
+
+.form-group #name{
+    float: left;
+    width: 49%
+}
+
+.form-group #email{
+    float: right;
+    width: 49%;
+}
+
+
+/* Footer */
+#main-footer{
+    padding: 50px 0;
+}
+
+#main-footer h2{
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+#main-footer p{
+    color: #bbbbbb;
+    margin-bottom: 10px;
+}
